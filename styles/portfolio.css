@@ -2,16 +2,28 @@
     --main-color: #F2E1C3;
     --link-color: #A63922;
     --heading-font: 'Caveat', cursive;
-    --main-font:'Oswald', sans-serif;;
+    --main-font:'Oswald', sans-serif;
 }
 
 body {
     font-family: var(--main-font);
 }
 
-h1 {
+h1, h2, h3, h4 {
     font-family: var(--heading-font);
+}
+
+h1 {
     font-size: 100px;
+}
+
+h2 {
+    font-size: 64px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .hero {
@@ -34,3 +46,27 @@ h1 {
 border: 1px solid #A63922;
 color: #02385A;
 }
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 10px 5px 5px #02385A;
+}
+
+.project-description {
+    padding: 30px 60px;
+}
+
+@media (max-width: 900px) {
+.hero {
+padding: 80px 20px;
+}
+
+h2 {
+    font-size: 44px;
+}
+
+.project-description {
+    padding: 0;
+    text-align: center;
+} }
