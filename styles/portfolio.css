@@ -32,6 +32,10 @@ p {
     padding: 160px 20px;
 }
 
+.body-color {
+    background-color: var(--main-color);
+}
+
 .btn-link {
     background-color: #A63922;
     color:whitesmoke;
@@ -50,7 +54,7 @@ color: #02385A;
 .img-fluid {
     max-width: 100%;
     height: auto;
-    box-shadow: 10px 5px 5px #02385A;
+    border-radius: 15px;
 }
 
 .project-description {
@@ -58,7 +62,8 @@ color: #02385A;
 }
 
 .border-change {
-    border: 5px solid var(--main-color);
+    border: 5px solid var(--link-color);
+    border-radius: 15px;
 }
 
 .content-container {
@@ -66,13 +71,24 @@ color: #02385A;
     
 }
 
-.content-container h1 {
+.content h1 {
     font-size: 64px;
     line-height: 1.5;
+    text-align: center;
 }
 
-.content-container h2 {
+.content h2 {
     font-size: 20px;
+}
+
+.content h3{
+   font-size: 24px; 
+   line-height: 1.5;
+   margin: 20px 0 0;
+}
+
+.content p{
+  font-size: 14px; 
 }
 
 .content {
