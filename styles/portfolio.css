@@ -74,7 +74,6 @@ color: #02385A;
 .content h1 {
     font-size: 64px;
     line-height: 1.5;
-    text-align: center;
 }
 
 .content h2 {
@@ -99,6 +98,11 @@ margin: 30px;
 .me-img {
    border-radius: 30px;
    box-shadow: none
+}
+
+.icon {
+    color: var(--link-color);
+    font-size: 35px;
 }
 
 @media (max-width: 900px) {
