@@ -61,6 +61,15 @@ nav li.active a {
     color: var(--link-color);
 }
 
+.projects-link {
+  text-decoration: none;
+color:#02385A;  
+}
+
+.projects-link:hover {
+    color: var(--link-color);
+}
+
 .hero {
     background-color: var(--main-color);
     text-align: center;
